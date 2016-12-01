@@ -15,6 +15,11 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		FCE31C4A1DF00D9700DE9C2E /* CenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31C491DF00D9700DE9C2E /* CenterVC.swift */; };
+		FCE31C4C1DF00DA000DE9C2E /* TopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31C4B1DF00DA000DE9C2E /* TopVC.swift */; };
+		FCE31C4E1DF00DD900DE9C2E /* RightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31C4D1DF00DD900DE9C2E /* RightVC.swift */; };
+		FCE31C501DF00DE300DE9C2E /* LeftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31C4F1DF00DE300DE9C2E /* LeftVC.swift */; };
+		FCE31C521DF00DEA00DE9C2E /* BottomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE31C511DF00DEA00DE9C2E /* BottomVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		B7B15EBCBC5AB1EC1F7FAA68 /* Pods-QuintupleVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuintupleVC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuintupleVC_Tests/Pods-QuintupleVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECA629D8EBF9B4AA68FB7E05 /* Pods_QuintupleVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuintupleVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC769FBA89FC551CF08BBBA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FCE31C491DF00D9700DE9C2E /* CenterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterVC.swift; sourceTree = "<group>"; };
+		FCE31C4B1DF00DA000DE9C2E /* TopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopVC.swift; sourceTree = "<group>"; };
+		FCE31C4D1DF00DD900DE9C2E /* RightVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightVC.swift; sourceTree = "<group>"; };
+		FCE31C4F1DF00DE300DE9C2E /* LeftVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftVC.swift; sourceTree = "<group>"; };
+		FCE31C511DF00DEA00DE9C2E /* BottomVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				FCE31C481DF00D8800DE9C2E /* ViewController */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -157,6 +168,18 @@
 				ECA629D8EBF9B4AA68FB7E05 /* Pods_QuintupleVC_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCE31C481DF00D8800DE9C2E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FCE31C491DF00D9700DE9C2E /* CenterVC.swift */,
+				FCE31C4D1DF00DD900DE9C2E /* RightVC.swift */,
+				FCE31C4F1DF00DE300DE9C2E /* LeftVC.swift */,
+				FCE31C511DF00DEA00DE9C2E /* BottomVC.swift */,
+				FCE31C4B1DF00DA000DE9C2E /* TopVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,7 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE31C4A1DF00D9700DE9C2E /* CenterVC.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				FCE31C4E1DF00DD900DE9C2E /* RightVC.swift in Sources */,
+				FCE31C521DF00DEA00DE9C2E /* BottomVC.swift in Sources */,
+				FCE31C501DF00DE300DE9C2E /* LeftVC.swift in Sources */,
+				FCE31C4C1DF00DA000DE9C2E /* TopVC.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E710E0D2EC5347F8AFAAE2B5740DEAF /* QuintupleVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BCB3F32056005E33CDA5655AC8E4B /* QuintupleVC-dummy.m */; };
+		17A9EA0806420F3EDE106A62A17F6D15 /* QuintupleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4995696411CB57BCF1429F7DA324C /* QuintupleVC.swift */; };
 		58363443D5156DC20651957B0E9779E3 /* Pods-QuintupleVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B8FA0E3F02597C7AF9A25EA1B2355 /* Pods-QuintupleVC_Tests-dummy.m */; };
 		759547D94AA66E4CC26D47883C6C61D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		8469F86EFEFD4C86A4508124BBDD6BEE /* QuintupleVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD208EF8870463E00CE747F6E7422D4 /* QuintupleVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		907EC531E36370B094AD0E15D0CF5F59 /* Pods-QuintupleVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C839762DB3726A23087CE5EC2EBAAFDC /* Pods-QuintupleVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		951E22A8D0C2983B53C732C9F7897AE1 /* Pods-QuintupleVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0C67D62B79769B0A05D1025B8AC708 /* Pods-QuintupleVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB66BC345752102DCBF61F80C51AA2CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C0505E197657123DB11DE432B4523EBC /* QuintupleVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 561BCB3F32056005E33CDA5655AC8E4B /* QuintupleVC-dummy.m */; };
 		C80FB77F49C41F4B47837A32425A4D92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CE42A92291D642EBEE32046CDF1A1C8F /* QuintupleVCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC404B1AC1AA09233569CBC1012238E /* QuintupleVCHelper.swift */; };
 		CFFF88B94605B0C8B63A6863F10B9416 /* Pods-QuintupleVC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60800027A92425D1D71D6092D08AC851 /* Pods-QuintupleVC_Example-dummy.m */; };
-		F3516971A02D25872AC417CE93658874 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547CFC3899C3916A39EB19E63A723A66 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,26 +39,27 @@
 		2A2D92FAE78A3D6521CF50DB1ACAB524 /* Pods-QuintupleVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuintupleVC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2AD208EF8870463E00CE747F6E7422D4 /* QuintupleVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuintupleVC-umbrella.h"; sourceTree = "<group>"; };
 		2CDD6801DE869C3369ED1B294E36BAA2 /* Pods-QuintupleVC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuintupleVC_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3EE4995696411CB57BCF1429F7DA324C /* QuintupleVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuintupleVC.swift; sourceTree = "<group>"; };
 		3F9391B959B3CB8E1B928949BE996466 /* Pods-QuintupleVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuintupleVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		50BFF76E02A7C7CB1CF27ABDA14D3003 /* Pods-QuintupleVC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuintupleVC_Example.modulemap"; sourceTree = "<group>"; };
-		547CFC3899C3916A39EB19E63A723A66 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		554FF3F8C282F443E2814CC1361890E9 /* QuintupleVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuintupleVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50BFF76E02A7C7CB1CF27ABDA14D3003 /* Pods-QuintupleVC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QuintupleVC_Example.modulemap"; sourceTree = "<group>"; };
+		554FF3F8C282F443E2814CC1361890E9 /* QuintupleVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QuintupleVC.framework; path = QuintupleVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		561BCB3F32056005E33CDA5655AC8E4B /* QuintupleVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuintupleVC-dummy.m"; sourceTree = "<group>"; };
 		60800027A92425D1D71D6092D08AC851 /* Pods-QuintupleVC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuintupleVC_Example-dummy.m"; sourceTree = "<group>"; };
 		620105B8350E684EDCE540C84C1300ED /* Pods-QuintupleVC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuintupleVC_Example-resources.sh"; sourceTree = "<group>"; };
 		6616FCD217FD3892C2F96264C4F4294F /* Pods-QuintupleVC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuintupleVC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		76424AC9C4790311BA91FD1DD32BE3F4 /* Pods-QuintupleVC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuintupleVC_Tests-resources.sh"; sourceTree = "<group>"; };
 		92EFB4785CA486254AED5E63F9A3A635 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CC5FE857DC46CEE30A9CD010AFE6A69 /* QuintupleVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuintupleVC.xcconfig; sourceTree = "<group>"; };
-		AF1287E04BAD87A24642BB78B91B972A /* QuintupleVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QuintupleVC.modulemap; sourceTree = "<group>"; };
+		9EC404B1AC1AA09233569CBC1012238E /* QuintupleVCHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuintupleVCHelper.swift; sourceTree = "<group>"; };
+		AF1287E04BAD87A24642BB78B91B972A /* QuintupleVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QuintupleVC.modulemap; sourceTree = "<group>"; };
 		AF6648D944C69CDAFC479BD885152468 /* Pods-QuintupleVC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuintupleVC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B23DAE084CAE05913C9C6AD9D34B2368 /* Pods-QuintupleVC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuintupleVC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B4402C94CFBC214E0EB7E764FCBA51C3 /* Pods-QuintupleVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuintupleVC_Tests.modulemap"; sourceTree = "<group>"; };
-		BE7D8AB6CAA7E2DAD6ACC06FAF6EE717 /* Pods_QuintupleVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuintupleVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4402C94CFBC214E0EB7E764FCBA51C3 /* Pods-QuintupleVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QuintupleVC_Tests.modulemap"; sourceTree = "<group>"; };
+		BE7D8AB6CAA7E2DAD6ACC06FAF6EE717 /* Pods_QuintupleVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuintupleVC_Tests.framework; path = "Pods-QuintupleVC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59ADCE3CCB2256AF6E2DA3D3378A132 /* Pods-QuintupleVC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuintupleVC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C839762DB3726A23087CE5EC2EBAAFDC /* Pods-QuintupleVC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuintupleVC_Example-umbrella.h"; sourceTree = "<group>"; };
-		C9CD56A2D6D76B36A14FC573512999E6 /* Pods_QuintupleVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuintupleVC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CD56A2D6D76B36A14FC573512999E6 /* Pods_QuintupleVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QuintupleVC_Example.framework; path = "Pods-QuintupleVC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA0C67D62B79769B0A05D1025B8AC708 /* Pods-QuintupleVC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuintupleVC_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E355B0D2AD4C5D53BC64B1CC0B9EECE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,19 +97,11 @@
 		2571E5C69FDFDA7E6938D71473616F5C /* QuintupleVC */ = {
 			isa = PBXGroup;
 			children = (
-				312E33B4419B114C2D39A46370293B7B /* QuintupleVC */,
+				C3286C3E9A62618F9E85D0DBE83EA220 /* QuintupleVC */,
 				3738EFB5EC1EA64F699F6C3049701E2B /* Support Files */,
 			);
 			name = QuintupleVC;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		312E33B4419B114C2D39A46370293B7B /* QuintupleVC */ = {
-			isa = PBXGroup;
-			children = (
-				BD3B843CF7DC752305C01EE0D5EDDB28 /* Classes */,
-			);
-			path = QuintupleVC;
 			sourceTree = "<group>";
 		};
 		3738EFB5EC1EA64F699F6C3049701E2B /* Support Files */ = {
@@ -188,6 +182,16 @@
 			);
 			sourceTree = "<group>";
 		};
+		A411EA8F633CF59DA3338E4125AE1514 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3EE4995696411CB57BCF1429F7DA324C /* QuintupleVC.swift */,
+				9EC404B1AC1AA09233569CBC1012238E /* QuintupleVCHelper.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A59258ADDD96E36E1BB6E49E26EC6850 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,12 +210,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD3B843CF7DC752305C01EE0D5EDDB28 /* Classes */ = {
+		C3286C3E9A62618F9E85D0DBE83EA220 /* QuintupleVC */ = {
 			isa = PBXGroup;
 			children = (
-				547CFC3899C3916A39EB19E63A723A66 /* ReplaceMe.swift */,
+				A411EA8F633CF59DA3338E4125AE1514 /* Classes */,
 			);
-			path = Classes;
+			name = QuintupleVC;
+			path = QuintupleVC;
 			sourceTree = "<group>";
 		};
 		C5F3A82483CD885DFB1A43AC021B25A7 /* Development Pods */ = {
@@ -256,7 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A68BF87932EEA03BED2C299F81891EF /* Build configuration list for PBXNativeTarget "QuintupleVC" */;
 			buildPhases = (
-				8F103371DF5CDF2BE5D75C3BCE1292BC /* Sources */,
+				95329CEB7A7E9318167E7E56458233CD /* Sources */,
 				B7F3E9C34FB099376DAA3ECFA7529FA3 /* Frameworks */,
 				026ED5E830941C8D9F182D19D2301150 /* Headers */,
 			);
@@ -312,14 +317,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					9D1F9926751C20147DE4F0837B437318 = {
-						LastSwiftMigration = 0800;
-					};
-					F89AA96D7A15E2166E913CFF62C384AF = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,12 +354,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F103371DF5CDF2BE5D75C3BCE1292BC /* Sources */ = {
+		95329CEB7A7E9318167E7E56458233CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E710E0D2EC5347F8AFAAE2B5740DEAF /* QuintupleVC-dummy.m in Sources */,
-				F3516971A02D25872AC417CE93658874 /* ReplaceMe.swift in Sources */,
+				C0505E197657123DB11DE432B4523EBC /* QuintupleVC-dummy.m in Sources */,
+				17A9EA0806420F3EDE106A62A17F6D15 /* QuintupleVC.swift in Sources */,
+				CE42A92291D642EBEE32046CDF1A1C8F /* QuintupleVCHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +403,70 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_QuintupleVC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34477BA5131B49FD8D219674A7741E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC5FE857DC46CEE30A9CD010AFE6A69 /* QuintupleVC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QuintupleVC/QuintupleVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuintupleVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuintupleVC/QuintupleVC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QuintupleVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46DEBEA7E93BA1B285033E0B17AA1C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC5FE857DC46CEE30A9CD010AFE6A69 /* QuintupleVC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QuintupleVC/QuintupleVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuintupleVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuintupleVC/QuintupleVC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QuintupleVC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -569,39 +631,6 @@
 			};
 			name = Debug;
 		};
-		AB2BBA9780AF73A9F0CD0014D3D2222D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CC5FE857DC46CEE30A9CD010AFE6A69 /* QuintupleVC.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QuintupleVC/QuintupleVC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QuintupleVC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QuintupleVC/QuintupleVC.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = QuintupleVC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BC70BA3A4D66ECB63F451AC21341E59E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A2D92FAE78A3D6521CF50DB1ACAB524 /* Pods-QuintupleVC_Example.release.xcconfig */;
@@ -631,39 +660,6 @@
 				PRODUCT_NAME = Pods_QuintupleVC_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F0FBCA2B89ABD1B2FF9B7CF1A57CDBFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CC5FE857DC46CEE30A9CD010AFE6A69 /* QuintupleVC.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QuintupleVC/QuintupleVC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QuintupleVC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QuintupleVC/QuintupleVC.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = QuintupleVC;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -703,8 +699,8 @@
 		7A68BF87932EEA03BED2C299F81891EF /* Build configuration list for PBXNativeTarget "QuintupleVC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB2BBA9780AF73A9F0CD0014D3D2222D /* Debug */,
-				F0FBCA2B89ABD1B2FF9B7CF1A57CDBFA /* Release */,
+				46DEBEA7E93BA1B285033E0B17AA1C01 /* Debug */,
+				34477BA5131B49FD8D219674A7741E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
