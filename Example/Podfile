@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QuintupleVC_Example' do
+  pod 'QuintupleVC', :path => '../'
+
+  target 'QuintupleVC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module QuintupleVC {
+  umbrella header "QuintupleVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

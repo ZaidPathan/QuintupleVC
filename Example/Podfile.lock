@@ -1,0 +1,16 @@
+PODS:
+  - QuintupleVC (0.1.0)
+
+DEPENDENCIES:
+  - QuintupleVC (from `../`)
+
+EXTERNAL SOURCES:
+  QuintupleVC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QuintupleVC: b19d3db81f3b53d85eb6f8c192eb9fb5eaf21e29
+
+PODFILE CHECKSUM: d516aa6c9efa2f096ad1de96fadfd9fea7da52f9
+
+COCOAPODS: 1.2.0.beta.1
