@@ -50,6 +50,7 @@ open class QuintupleVC: UIViewController {
     
     override open func viewDidLoad() {
         super.viewDidLoad()
+        automaticallyAdjustsScrollViewInsets = false
         view.backgroundColor = UIColor.white
         add(childVC: centerVC, vcType: .centerVC)
         add(childVC: rightVC, vcType: .rightVC)
@@ -213,10 +214,10 @@ open class QuintupleVC: UIViewController {
         
         let topConstraint = NSLayoutConstraint(
             item: ofChildVC.view,
-            attribute: NSLayoutAttribute.topMargin,
+            attribute: NSLayoutAttribute.top,
             relatedBy: NSLayoutRelation.equal,
             toItem: view,
-            attribute: NSLayoutAttribute.topMargin,
+            attribute: NSLayoutAttribute.top,
             multiplier: 1,
             constant: topConstant)
         
