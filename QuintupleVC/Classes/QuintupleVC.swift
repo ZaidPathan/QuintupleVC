@@ -34,6 +34,7 @@ open class QuintupleVC: UIViewController {
     fileprivate var panGesture:UIPanGestureRecognizer?
     fileprivate var shouldShowLogs:Bool = true
     fileprivate var currentScrollingDirection:ScrollDirection?
+    fileprivate var scrollView:UIScrollView?
     public var currentVisibleVC:VCType = .centerVC
     
     //----------------------------------------
@@ -48,10 +49,49 @@ open class QuintupleVC: UIViewController {
         self.bottomVC   = bottomVC
     }
     
+
+    fileprivate func setupScrollView(){
+        if let scrollView = UIScrollView() as? UIScrollView{
+            self.scrollView = scrollView
+            self.scrollView?.backgroundColor = UIColor.groupTableViewBackground
+            scrollView.translatesAutoresizingMaskIntoConstraints = false
+            view.addSubview(scrollView)
+            scrollView.addConstraints([getWidth(toView: scrollView, width: QVCConstants.screenWidth),getHeight(toView: scrollView, height: QVCConstants.screenHeight)])
+            view.addConstraints([getHCentered(toView: scrollView),getVCentered(toView: scrollView)])
+        }
+    }
+    
+    fileprivate func getWidth(toView:UIView,width:CGFloat)->NSLayoutConstraint{
+        return NSLayoutConstraint(item: toView, attribute: NSLayoutAttribute.width, relatedBy: NSLayoutRelation.equal, toItem: nil, attribute: NSLayoutAttribute.notAnAttribute, multiplier: 1, constant:width)
+    }
+    
+    fileprivate func getHeight(toView:UIView,height:CGFloat)->NSLayoutConstraint{
+        return NSLayoutConstraint(item: toView, attribute: NSLayoutAttribute.height, relatedBy: NSLayoutRelation.equal, toItem: nil, attribute: NSLayoutAttribute.notAnAttribute, multiplier: 1, constant: height)
+    }
+    
+    fileprivate func getHCentered(toView:UIView)->NSLayoutConstraint{
+        return NSLayoutConstraint(item      : toView,
+                                  attribute : NSLayoutAttribute.centerX,
+                                  relatedBy : NSLayoutRelation.equal,
+                                  toItem    : view,
+                                  attribute : NSLayoutAttribute.centerX,
+                                  multiplier: 1,
+                                  constant  : 0)
+    }
+    
+    fileprivate func getVCentered(toView:UIView)->NSLayoutConstraint{
+        return NSLayoutConstraint(item      : toView,
+                                  attribute : NSLayoutAttribute.centerY,
+                                  relatedBy : NSLayoutRelation.equal,
+                                  toItem    : view,
+                                  attribute : NSLayoutAttribute.centerY,
+                                  multiplier: 1,
+                                  constant  : 0)
+    }
+    
     override open func viewDidLoad() {
         super.viewDidLoad()
-        automaticallyAdjustsScrollViewInsets = false
-        view.backgroundColor = UIColor.white
+        setupScrollView()
         add(childVC: centerVC, vcType: .centerVC)
         add(childVC: rightVC, vcType: .rightVC)
         add(childVC: topVC, vcType: .topVC)
@@ -106,6 +146,26 @@ open class QuintupleVC: UIViewController {
         }else{
             let gesturePoints = gesture.translation(in: self.view)
             
+//            right
+//            if gesturePoints.x > 0 {
+//                
+////            top
+//            }else if gesturePoints.y < 0{
+//            
+//            }
+////            left
+//            else if gesturePoints.x < 0{
+//                
+//            }
+////            bottom
+//            else if gesturePoints.y > 0{
+//                
+//            }
+//            center
+            
+            
+            
+//            print(gesturePoints)
             // ▶︎ Direction
             if gesturePoints.x > QVCConstants.screenWidth/5{
                 debugPrint("▶︎")
@@ -186,14 +246,16 @@ open class QuintupleVC: UIViewController {
     }
     
     fileprivate func add(childVC:UIViewController?,vcType:VCType){
-        if let childVC = childVC{
-            addChildViewController(childVC)
-            childVC.view.frame = view.frame
-            view.addSubview(childVC.view)
-            childVC.didMove(toParentViewController: self)
-        }else{
-            if shouldShowLogs{
-                debugPrint("\(vcType) not found")
+        if let scrollView = scrollView{
+            if let childVC = childVC{
+                addChildViewController(childVC)
+                childVC.view.frame = scrollView.frame
+                scrollView.addSubview(childVC.view)
+                childVC.didMove(toParentViewController: self)
+            }else{
+                if shouldShowLogs{
+                    debugPrint("\(vcType) not found")
+                }
             }
         }
     }
